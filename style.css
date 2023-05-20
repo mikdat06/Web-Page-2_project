@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 5rem;
+  border-bottom: solid #ff315d 4px;
+  background-color: #6e6e6e;
+}
+
+span {
+  color: #ff315d;
+}
+
+.active-page {
+  color: #ff315d;
+}
+
+.header-title a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  word-spacing: 0.4rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 3rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+nav.banner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-title {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+}
+
+.banner-h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.banner-h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6e6e6e;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div.feedback p {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 1.5rem;
+}
+
+div.feedback section {
+  margin: 1.5rem;
+}
+
+#e-mail {
+  height: 2rem;
+}
+
+#submit-button {
+  height: 2rem;
+  width: 6rem;
+  background-color: #ff7b24;
+  border: none;
+}
+
+.zone {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  min-height: 35vh;
+}
+
+.zone section div img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zone section h4 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.zone section p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background-color: #6e6e6e;
+}
+
+footer div img {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+}
+
+div.about {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 1rem 4.5rem;
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+div.text-1 {
+  font-size: 1.1rem;
+}
+
+div.text-1 p.first-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+div.text-1 p.third-text {
+  margin-top: 1rem;
+  background-color: #6e6e6e;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+div.text-2 p.fifth-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.text-2 {
+  padding: 2rem;
+  background-color: #6e6e6e;
+  color: #ffffff;
+  height: 12rem;
+}
+
+div.text-2 p {
+  font-size: 1.1rem;
+}
+
+div.service {
+  display: flex;
+  justify-content: space-around;
+  min-height: 90vh;
+  padding: 2rem;
+}
+
+.service-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+div.service-title p.service-title2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.service-1 {
+  padding: 2rem;
+  background-color: #ebebeb;
+  margin-top: 1rem;
+}
+
+.service-1 p.service-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.service-1 p {
+  margin-top: 0.3rem;
+}
+
+div.quote {
+  margin-top: 3rem;
+  margin-right: 11rem;
+  background-color: #ebebeb;
+  width: 30rem;
+  height: 35rem;
+}
+
+div.quote p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+div.quote form {
+  padding: 1rem;
+}
+
+div.quote section {
+  padding: 1rem;
+}
+
+div.quote section input {
+  width: 25rem;
+  height: 2rem;
+}
+
+div.quote textarea {
+  width: 25rem;
+  margin-top: 1rem;
+}
+
+div.quote input#send-button {
+  margin-left: 1rem;
+  width: 4rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: rgb(100, 100, 100);
+  color: #ffffff;
+}
